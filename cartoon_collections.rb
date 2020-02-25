@@ -1,14 +1,10 @@
 #['hello', 'universe'].each_with_index do |value, index|
-  puts "#{index}: #{value}"
-end
+#  puts "#{index}: #{value}"
+#end
 
 def roll_call_dwarves(dwarves)
   dwarves.each_with_index do |value, index|
-  
-  
-  dwarves.collect do |name|
-    puts "#{name}"
-  end
+  puts "#{index}: #{value}"
 end
 
 def summon_captain_planet# code an argument here
