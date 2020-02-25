@@ -1,6 +1,6 @@
 def roll_call_dwarves(names)
   names.collect do |name|
-    puts index[] #{name}"
+    puts #{name}"
   end
 end
 
