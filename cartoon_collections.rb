@@ -8,7 +8,7 @@ def summon_captain_planet(planeteer_calls)
 end
 #{ |i| i % 5 == 0 and i % 7 == 0 } 
 def long_planeteer_calls(short_words)
-  short_words.find { |i| 
+  short_words.find { |i| i > 4 
 end
 
 def find_the_cheese# code an argument here
