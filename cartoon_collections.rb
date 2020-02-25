@@ -7,7 +7,7 @@ def summon_captain_planet(planeteer_calls)
   planeteer_calls.collect {|word| word.capitalize + "!"}
 end
 
-def long_planeteer_calls(short_words)
+def long_planeteer_calls(calls)
   short_words.find { |i| i > 4 == 0 }
 end
 
