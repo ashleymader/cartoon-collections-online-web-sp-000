@@ -1,4 +1,5 @@
 def roll_call_dwarves(dwarves)
+  colors.each_with_index { |item, index| p "#{index}:#{item}" }
   dwarves.collect do |name|
     puts "#{name}"
   end
