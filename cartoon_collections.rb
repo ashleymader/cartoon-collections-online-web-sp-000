@@ -1,5 +1,5 @@
-def roll_call_dwarves(names)
-  names.collect do |name|
+def roll_call_dwarves(dwarves)
+  dwarves.collect do |name|
     puts #{name}"
   end
 end
