@@ -1,9 +1,3 @@
-#['hello', 'universe'].each_with_index do |value, index|
-#  puts "#{index}: #{value}"
-#end
-
-#colors.each_with_index { |item, index| p "#{index}:#{item}" } 
-
 def roll_call_dwarves(dwarves)
   dwarves.each_with_index { |value, index|
   puts "#{index}: #{value}" }
